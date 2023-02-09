@@ -1,0 +1,73 @@
+/** Write your css styles below this comment */
+body{
+  margin: 0px;
+  background-color: black;
+  color: white;
+}
+p{
+  margin: 0px;
+}
+.form{
+  border: 3px solid red;
+  border-radius: 10px;
+  width: 300px;
+  height: 150px;
+  margin-left: 37%;
+  margin-top: 15%;
+}
+input[type=number]{
+  width: 93%;
+  margin: 2%;
+  height: 50px;
+  font-size: 2em;
+  border-radius: 6px;
+  text-align: right;
+  transition: 1s;
+}
+
+input[type=number]:hover{
+  background-color: #cdf2bd;
+  border-radius: 10px;
+
+}
+
+
+input[type=button],input[type=reset]{
+  width: 46%;
+  margin: 2%;
+  height: 50px;
+  font-size: 1.5em;
+  text-align: center;
+  float: left;
+}
+
+input[type=reset]{
+  background-color: #ba043d;
+  border: 0px;
+  border-radius: 3px;
+  transition: 1s;
+}
+input[type=button]{
+  background-color: #0a04b8;
+  border: 0px;
+  border-radius: 3px;
+  transition: 1s;
+}
+
+input[type=reset]:hover{
+  background-color: #cc0898;
+}
+input[type=button]:hover{
+  background-color: #0497b8;
+
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
